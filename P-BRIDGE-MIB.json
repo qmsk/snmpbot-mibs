@@ -1,5 +1,6 @@
 {
   "Name": "P-BRIDGE-MIB",
+  "OID": ".1.3.6.1.2.1.17.6",
   "Objects": [
     {
       "Name": "dot1dDeviceCapabilities",

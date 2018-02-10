@@ -1,5 +1,6 @@
 {
   "Name": "SNMP-FRAMEWORK-MIB",
+  "OID": ".1.3.6.1.6.3.10",
   "Objects": [
     {
       "Name": "snmpEngineID",

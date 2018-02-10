@@ -1,5 +1,6 @@
 {
   "Name": "RMON-MIB",
+  "OID": ".1.3.6.1.2.1.16.20.8",
   "Objects": [
     {
       "Name": "etherStatsIndex",
