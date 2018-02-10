@@ -43,7 +43,17 @@
     {
       "Name": "protocolDirType",
       "OID": ".1.3.6.1.2.1.16.11.2.1.5",
-      "Syntax": null
+      "Syntax": "BITS",
+      "SyntaxOptions": [
+        {
+          "Bit": 0,
+          "Name": "extensible"
+        },
+        {
+          "Bit": 1,
+          "Name": "addressRecognitionCapable"
+        }
+      ]
     },
     {
       "Name": "protocolDirAddressMapConfig",
@@ -1253,7 +1263,117 @@
     {
       "Name": "probeCapabilities",
       "OID": ".1.3.6.1.2.1.16.19.1",
-      "Syntax": null
+      "Syntax": "BITS",
+      "SyntaxOptions": [
+        {
+          "Bit": 0,
+          "Name": "etherStats"
+        },
+        {
+          "Bit": 1,
+          "Name": "historyControl"
+        },
+        {
+          "Bit": 2,
+          "Name": "etherHistory"
+        },
+        {
+          "Bit": 3,
+          "Name": "alarm"
+        },
+        {
+          "Bit": 4,
+          "Name": "hosts"
+        },
+        {
+          "Bit": 5,
+          "Name": "hostTopN"
+        },
+        {
+          "Bit": 6,
+          "Name": "matrix"
+        },
+        {
+          "Bit": 7,
+          "Name": "filter"
+        },
+        {
+          "Bit": 8,
+          "Name": "capture"
+        },
+        {
+          "Bit": 9,
+          "Name": "event"
+        },
+        {
+          "Bit": 10,
+          "Name": "tokenRingMLStats"
+        },
+        {
+          "Bit": 11,
+          "Name": "tokenRingPStats"
+        },
+        {
+          "Bit": 12,
+          "Name": "tokenRingMLHistory"
+        },
+        {
+          "Bit": 13,
+          "Name": "tokenRingPHistory"
+        },
+        {
+          "Bit": 14,
+          "Name": "ringStation"
+        },
+        {
+          "Bit": 15,
+          "Name": "ringStationOrder"
+        },
+        {
+          "Bit": 16,
+          "Name": "ringStationConfig"
+        },
+        {
+          "Bit": 17,
+          "Name": "sourceRouting"
+        },
+        {
+          "Bit": 18,
+          "Name": "protocolDirectory"
+        },
+        {
+          "Bit": 19,
+          "Name": "protocolDistribution"
+        },
+        {
+          "Bit": 20,
+          "Name": "addressMapping"
+        },
+        {
+          "Bit": 21,
+          "Name": "nlHost"
+        },
+        {
+          "Bit": 22,
+          "Name": "nlMatrix"
+        },
+        {
+          "Bit": 23,
+          "Name": "alHost"
+        },
+        {
+          "Bit": 24,
+          "Name": "alMatrix"
+        },
+        {
+          "Bit": 25,
+          "Name": "usrHistory"
+        },
+        {
+          "Bit": 26,
+          "Name": "probeConfig"
+        }
+      ]
     },
     {
       "Name": "probeSoftwareRev",

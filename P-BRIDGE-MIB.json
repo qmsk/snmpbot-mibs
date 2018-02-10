@@ -4,7 +4,41 @@
     {
       "Name": "dot1dDeviceCapabilities",
       "OID": ".1.3.6.1.2.1.17.6.1.1.1",
-      "Syntax": null
+      "Syntax": "BITS",
+      "SyntaxOptions": [
+        {
+          "Bit": 0,
+          "Name": "dot1dExtendedFilteringServices"
+        },
+        {
+          "Bit": 1,
+          "Name": "dot1dTrafficClasses"
+        },
+        {
+          "Bit": 2,
+          "Name": "dot1qStaticEntryIndividualPort"
+        },
+        {
+          "Bit": 3,
+          "Name": "dot1qIVLCapable"
+        },
+        {
+          "Bit": 4,
+          "Name": "dot1qSVLCapable"
+        },
+        {
+          "Bit": 5,
+          "Name": "dot1qHybridCapable"
+        },
+        {
+          "Bit": 6,
+          "Name": "dot1qConfigurablePvidTagging"
+        },
+        {
+          "Bit": 7,
+          "Name": "dot1dLocalVlanCapable"
+        }
+      ]
     },
     {
       "Name": "dot1dTrafficClassesEnabled",
@@ -39,7 +73,21 @@
     {
       "Name": "dot1dPortCapabilities",
       "OID": ".1.3.6.1.2.1.17.6.1.1.4.1.1",
-      "Syntax": null
+      "Syntax": "BITS",
+      "SyntaxOptions": [
+        {
+          "Bit": 0,
+          "Name": "dot1qDot1qTagging"
+        },
+        {
+          "Bit": 1,
+          "Name": "dot1qConfigurableAcceptableFrameTypes"
+        },
+        {
+          "Bit": 2,
+          "Name": "dot1qIngressFiltering"
+        }
+      ]
     },
     {
       "Name": "dot1dPortDefaultUserPriority",

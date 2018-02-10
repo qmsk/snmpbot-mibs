@@ -97,7 +97,25 @@
     {
       "Name": "lldpPortConfigTLVsTxEnable",
       "OID": ".1.0.8802.1.1.2.1.1.6.1.4",
-      "Syntax": null
+      "Syntax": "BITS",
+      "SyntaxOptions": [
+        {
+          "Bit": 0,
+          "Name": "portDesc"
+        },
+        {
+          "Bit": 1,
+          "Name": "sysName"
+        },
+        {
+          "Bit": 2,
+          "Name": "sysDesc"
+        },
+        {
+          "Bit": 3,
+          "Name": "sysCap"
+        }
+      ]
     },
     {
       "Name": "lldpConfigManAddrPortsTxEnable",
@@ -245,12 +263,80 @@
     {
       "Name": "lldpLocSysCapSupported",
       "OID": ".1.0.8802.1.1.2.1.3.5",
-      "Syntax": null
+      "Syntax": "BITS",
+      "SyntaxOptions": [
+        {
+          "Bit": 0,
+          "Name": "other"
+        },
+        {
+          "Bit": 1,
+          "Name": "repeater"
+        },
+        {
+          "Bit": 2,
+          "Name": "bridge"
+        },
+        {
+          "Bit": 3,
+          "Name": "wlanAccessPoint"
+        },
+        {
+          "Bit": 4,
+          "Name": "router"
+        },
+        {
+          "Bit": 5,
+          "Name": "telephone"
+        },
+        {
+          "Bit": 6,
+          "Name": "docsisCableDevice"
+        },
+        {
+          "Bit": 7,
+          "Name": "stationOnly"
+        }
+      ]
     },
     {
       "Name": "lldpLocSysCapEnabled",
       "OID": ".1.0.8802.1.1.2.1.3.6",
-      "Syntax": null
+      "Syntax": "BITS",
+      "SyntaxOptions": [
+        {
+          "Bit": 0,
+          "Name": "other"
+        },
+        {
+          "Bit": 1,
+          "Name": "repeater"
+        },
+        {
+          "Bit": 2,
+          "Name": "bridge"
+        },
+        {
+          "Bit": 3,
+          "Name": "wlanAccessPoint"
+        },
+        {
+          "Bit": 4,
+          "Name": "router"
+        },
+        {
+          "Bit": 5,
+          "Name": "telephone"
+        },
+        {
+          "Bit": 6,
+          "Name": "docsisCableDevice"
+        },
+        {
+          "Bit": 7,
+          "Name": "stationOnly"
+        }
+      ]
     },
     {
       "Name": "lldpLocPortNum",
@@ -603,12 +689,80 @@
     {
       "Name": "lldpRemSysCapSupported",
       "OID": ".1.0.8802.1.1.2.1.4.1.1.11",
-      "Syntax": null
+      "Syntax": "BITS",
+      "SyntaxOptions": [
+        {
+          "Bit": 0,
+          "Name": "other"
+        },
+        {
+          "Bit": 1,
+          "Name": "repeater"
+        },
+        {
+          "Bit": 2,
+          "Name": "bridge"
+        },
+        {
+          "Bit": 3,
+          "Name": "wlanAccessPoint"
+        },
+        {
+          "Bit": 4,
+          "Name": "router"
+        },
+        {
+          "Bit": 5,
+          "Name": "telephone"
+        },
+        {
+          "Bit": 6,
+          "Name": "docsisCableDevice"
+        },
+        {
+          "Bit": 7,
+          "Name": "stationOnly"
+        }
+      ]
     },
     {
       "Name": "lldpRemSysCapEnabled",
       "OID": ".1.0.8802.1.1.2.1.4.1.1.12",
-      "Syntax": null
+      "Syntax": "BITS",
+      "SyntaxOptions": [
+        {
+          "Bit": 0,
+          "Name": "other"
+        },
+        {
+          "Bit": 1,
+          "Name": "repeater"
+        },
+        {
+          "Bit": 2,
+          "Name": "bridge"
+        },
+        {
+          "Bit": 3,
+          "Name": "wlanAccessPoint"
+        },
+        {
+          "Bit": 4,
+          "Name": "router"
+        },
+        {
+          "Bit": 5,
+          "Name": "telephone"
+        },
+        {
+          "Bit": 6,
+          "Name": "docsisCableDevice"
+        },
+        {
+          "Bit": 7,
+          "Name": "stationOnly"
+        }
+      ]
     },
     {
       "Name": "lldpRemManAddrSubtype",
